@@ -2,7 +2,7 @@
 
 from pybuilder.core import use_plugin, init
 
-use_plugin("python.core")
+use_plugin("python.core", version="0.13.10")
 use_plugin("python.unittest")
 use_plugin("python.coverage")
 use_plugin("python.distutils")
