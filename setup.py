@@ -9,6 +9,6 @@ setup(
     author='Karthick Selvam',
     test_suite='test',
     install_requires=[
-        # Add your project dependencies here
+        'twine>=3.0.0',
     ],
 )
