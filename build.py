@@ -3,7 +3,7 @@
 from pybuilder.core import use_plugin, init, task
 
 use_plugin("python.core", version="0.13.10")
-use_plugin("python.unittest")
+use_plugin("python.unittest", {"output_directory": "target/reports/tests"})
 use_plugin("python.coverage")
 use_plugin("python.distutils")
 use_plugin("python.pycharm")
